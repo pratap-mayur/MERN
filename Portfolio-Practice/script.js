@@ -10,4 +10,4 @@
     typeSpeed:80,
     backSpeed:50,
     backDelay:400
-  })
+  }) 
