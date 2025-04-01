@@ -1,11 +1,17 @@
-let isleapyear = (year) =>{
-    if((year%4===0 && year%100!==0) || year%400===0){
-        //return true;
-        console.log(true);
-}else{
-        //return false;
-        console.log(false);
+function factorial(n) {
+    if (n < 0) return "Factorial not defined for negative numbers";
+    let result = 1;
+    for (let i = 2; i <= n; i++) {
+      result *= i;
     }
-}
-isleapyear(2027);
-
+    return result;
+  }
+  
+  // Take input from user
+  let num = parseInt(prompt("Enter a number:"));
+  if (!isNaN(num)) {
+    console.log ( factorial(num));
+  } else {
+    alert("Please enter a valid number!");
+  }
+  
