@@ -1,5 +1,5 @@
-const add = (a,b) =>{
+const add1 = (a,b) =>{
     return a + b;
 }
 
-module.exports = add;
+module.exports = add1;
