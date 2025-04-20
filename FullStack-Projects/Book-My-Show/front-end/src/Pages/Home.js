@@ -7,19 +7,19 @@ import SelectSeats from '../Components/SelectSeats'
 
 const Home = () => {
   return (
-    <div className='wrapper'>
     <div className='container'>
+    <div className='wrapper'>
         <div className='select_movie_component'>
       <SelectMovie/>
       </div>
       <div className='last_booking_details_container'>
         <LastBookingDetails/>
       </div>
+      </div>
       <div className='time_seats_container'>
         <TimeSchedule/>
         <SelectSeats/>
         <button className='BN-btn'> Book Now</button>
-      </div>
       </div>
       
       

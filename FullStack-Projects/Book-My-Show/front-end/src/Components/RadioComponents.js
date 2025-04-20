@@ -1,6 +1,6 @@
 import React from 'react'
 import '../CSS/RadioComponents.css'
-import { slots } from '../Mlist';
+
 
 const RadioComponents = ({text}) => {
   return (

@@ -33,4 +33,6 @@
 
 .wrapper{
     display: flex;
+    flex-grow: 0;
+    overflow: visible;
 }
